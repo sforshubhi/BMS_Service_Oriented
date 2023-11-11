@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: bms-reports-service
+  config:
+    import: "optional:configserver:http://localhost:8088"
